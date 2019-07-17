@@ -1,7 +1,7 @@
 <?php
 
-class Character
-{
+class  Character extends Actor{
+
   private $_race;
   private $_attackPoints;
   private $_defensePoints;

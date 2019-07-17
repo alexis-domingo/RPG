@@ -27,45 +27,56 @@
 
 </head>
 <body>
-<header></header>    
+<header>
+
+        <h1>Inventory</h1>
+
+</header>    
 <main>
-    <div>
-    <div class="grid">
-        <div class="row">
-        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        </div>
-        <div class="row">
-        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        </div>
-        <div class="row">
-        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        </div>
-        <div class="row">
-        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        </div>
+    <div id="test">
+        <div class="grid">
+            <div class="row">
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
+            <div class="row">
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
+            <div class="row">
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
+            <div class="row">
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
         </div>
         
+        <div class="row">
+            <img id="hero" src="images/elfpaladin.jpg" alt="">
+        </div>
+
         <div class="grid">
+            <div class="row">
+                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
+            <div class="row">
+                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
+            <div class="row">
+                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
+            <div class="row">
+                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="row">
+                <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+                <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+            </div>
             
-        <img id="hero" src="images/elfpaladin.jpg" alt="">
         </div>
-
-        <div class="grid">
-        <div class="row">
-        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        </div>
-        <div class="row">
-        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        </div>
-        <div class="row">
-        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        </div>
-        <div class="row">
-        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        </div>
-    
+    </div>
         
-
         <div class="grid">
         <div class="row">
             <div class="box"><div class="inner" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag1" src="images/sword.jpg" draggable="true" ondragstart="drag(event)" width="70" height="70"></div></div>
