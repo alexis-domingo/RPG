@@ -1,39 +1,45 @@
 
 <?php
 
+require_once('Actor.php');
+
 class Monster extends Actor{
 
 //!Propierties
-private $type;
-private $description;
-private $health;
-private $attack;
+
+private $_type;
+private $_description;
+private $_health;
+private $_attack;
 
 //! Methods
 
-
 //? Construct
+public function __construct($race){
+  
 
-public function __construct($type,$description,$health,$attack){
+        //! parent:: __construct
 
-
+    $this->_description;
+    $this->_health = 140;
+    $this->_attack = 6;
 }
-
 
 //*Functions
 
-public function hurt ($hp){
+public function hurt ($legolas){ //*CHECK
 
+    $legolas->health  //get and set for health
+
+
+    
 
 }
-    $player = new Character('Mountain Elf');
-    $elfHunter = new Monster ('Seifer of the woods, 140')
-    /* A monster is hurt */
-    $elfHunter->hurt(50);
-    /* Player is hurt */
-    $player->hurt(10);
-    $elfHunter->hurt(100); /* The monster should be dead now*/
 
+
+public function loot (){ //* CHECK
+
+}
 
 }
 ?>

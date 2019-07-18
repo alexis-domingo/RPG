@@ -2,7 +2,9 @@
 
     require_once('Character.php');
 
-    //* Parent
+//* Parent
+//*____________________
+
     class Actor{
         //!Propierties
         protected $_race;
@@ -12,14 +14,10 @@
         protected $_warCry;
         protected $_equipments;
 
-        public __construct()
+        public function __construct($race) //* CHECK // init the race
         {
-            $this->_race;
-            $this->_attackPoints;
-            $this->_defensePoints;
-            $this->_healthPoints;
-            $this->_warCry;
-            $this->_equipments;
+            $this->_race = $race;
+
         }
 
     }

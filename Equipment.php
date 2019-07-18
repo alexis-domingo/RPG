@@ -21,7 +21,7 @@ class Equipment
   }
 
   //?____________________
-  // Get
+  //? Get
   //?____________________
 
   public function getType(){return $this->_type;}
@@ -39,4 +39,6 @@ class Equipment
 
     return $string;
   }
+
+  
 }
